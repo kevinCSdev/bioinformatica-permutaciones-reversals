@@ -1,0 +1,21 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Node / Vite
+frontend/node_modules/
+frontend/dist/
+
+# Herramientas locales
+.playwright-mcp/
+*.log
+.DS_Store
+
+# Variables de entorno
+.env
+.env.*
+!.env.example
